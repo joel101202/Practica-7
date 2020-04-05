@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Practica 7 js</title>
+</head>
+<body>
+    
+<script>
+    //PROGRAMA 1
+var ALC=prompt('PROGRAMA 1, presione ok para continuar...','');
+var OP1=prompt('Ingrese el primer numero:','');
+var OP2=prompt('Ingrese el segundo numero:','');
+SUMA=parseInt(OP1)+parseInt(OP2);
+RESTA=OP1-OP2;
+MULTIPLICACION=OP1*OP2;
+DIVISION=OP1/OP2;
+
+  if (OP1>OP2)
+  {
+    document.write('La suma de estos dos numeros es '+SUMA, '<br>El residuo de estos dos numeros es '+RESTA);
+  }
+  else
+  {
+    document.write('El producto de estos dos numeros es '+MULTIPLICACION, '<br>El cociente de estos dos numeros es '+DIVISION);
+  }
+
+  //PROGRAMA 2
+  var ALC=prompt('PROGRAMA 2, presione ok para continuar...','');
+  var N1=prompt('Ingrese la primera nota del alumo:','');
+  var N2=prompt('Ingrese la segunda nota del alumo:','');
+  var N3=prompt('Ingrese la tercera nota del alumo:','');
+  var SUMA=parseInt(N1)+parseInt(N2)+parseInt(N3);
+  var PROMEDIO=SUMA/3;
+
+    if(PROMEDIO>=4){
+        document.write('Regular');
+    }
+    else
+    {
+        document.write('Reprobado');
+    }
+
+    //PROGRAMA 3
+    var ALC=prompt('PROGRAMA 3, presione ok para continuar...','');
+    var N=parseInt(prompt('Ingrese un numero del 1 al 99:',''));
+    
+    if(N<10){
+        document.write('El numero elegido tiene solo una cifra');
+    }
+    else
+    {
+        document.write('El numero elegido tiene dos cifras');
+    }
+
+</script>
+
+</body>
+</html>
